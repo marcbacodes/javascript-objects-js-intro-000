@@ -1,6 +1,6 @@
-var playlist={artistName: "",songTitle: ""};
+var playlist={"Coldplay":"Lost!"};
 
-function updatePlaylist(playlist,artistName,songTitle){
+function updatePlaylist(artistName,songTitle){
 
-  return Object.assign({},playlist,{songTitle:["Phil Ochs","My Bloody Valentine","Slowdive"]});
+  return Object.assign({},{songTitle:["Phil Ochs","My Bloody Valentine","Slowdive"]});
 }
